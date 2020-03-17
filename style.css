@@ -1,16 +1,58 @@
 /* Type your code here */
+body{
+	background-image :url(./assets/background-image1.png);
+	background-repeat:no-repeat;
+	background-position:right;
+  background-size : 1250px 600px;
+  background-attachment: fixed;
+}
+
+#imgg{
+	align-content :flex-end;
+	padding-left :1300px;
+	padding-bottom:110px;
+}
+#clr{
+	background-color:red;
+	color:white;
+}
+.bluclr{
+	color:blue;
+}
+.bluclr:hover {
+  color:red;
+  cursor: pointer;
 
 
+}
+#lft{
+	text-align:right;
+}
+
+table{
+	border-collapse :collapse;
+  background-color:white;
+  width: 1000px;
+	}
 /* change the font family and spacing as per your project font */
+th,td{
+	border-bottom:1px solid #ddd;
+	text-align:left;
+	padding:5px;
+}
+
+
 .footer{
     display:flex;
     flex-direction: row;
-    align-content: flex-end;
+    align-content: center;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	top: 20px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
-    
+    padding-bottom: 10px;
 }
+
+
+
